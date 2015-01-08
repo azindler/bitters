@@ -17,20 +17,20 @@ h6 {
   font-family: $header-font-family;
   font-size: $base-font-size;
   line-height: $header-line-height;
-  margin: 0 0 $base-spacing-small;
+  margin: 0 0 $small-spacing;
 }
 
 p {
-  margin: 0 0 $base-spacing-small;
+  margin: 0 0 $small-spacing;
 }
 
 a {
   @include transition(color 0.1s linear);
-  color: $base-accent-color;
+  color: $action-color;
   text-decoration: none;
 
   &:hover {
-    color: darken($base-accent-color, 15);
+    color: darken($action-color, 15);
   }
 
   &:active,
