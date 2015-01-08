@@ -1,7 +1,7 @@
 body {
   @include font-feature-settings("kern","liga","frac", "pnum");
   -webkit-font-smoothing: antialiased;
-  background-color: white;
+  background-color: #fff;
   color: $base-font-color;
   font-family: $base-font-family;
   font-size: $base-font-size;
@@ -33,7 +33,8 @@ a {
     color: darken($base-accent-color, 15);
   }
 
-  &:active, &:focus {
+  &:active,
+  &:focus {
     color: $hover-link-color;
     outline: none;
   }
