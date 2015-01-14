@@ -1,0 +1,22 @@
+{
+  "name": "bitters",
+  "homepage": "http://bitters.bourbon.io/",
+  "main": "app/assets/stylesheets/_base.scss",
+  "ignore": [
+    "bin",
+    "lib",
+    ".gitignore",
+    "Gemfile",
+    "Gemfile.lock",
+    "Rakefile",
+    "bitters.gemspec",
+    "CONTRIBUTING.md",
+    "LICENSE.md",
+    "NEWS.md",
+    "test",
+    "spec"
+  ],
+  "dependencies": {
+    "bourbon": ">=4.0"
+  }
+}
